@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-image: url("./image.jpg");
+    
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -21,6 +23,8 @@ h1 {
     color: white;
     font-size: 4rem;
     margin-top: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 10px;
 }
 
 .countdown-container {
@@ -44,4 +48,12 @@ h1 {
 .countdown-el span {
     color: white;
     font-size: 1.3rem;
+}
+
+.plflag {
+    width: 300px;
+    border-radius: 20px;
+    padding: 5px;
+    opacity: 0.3;
+    
 }
